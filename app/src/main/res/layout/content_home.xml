@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imageleft" />
+
+    <Button
+        android:id="@+id/chisono"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="59dp"
+        android:background="#6e000000"
+        android:fontFamily="@font/futurabold"
+        android:gravity="right|center_vertical"
+        android:text="Chi sono     "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/foto"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:background="#6e000000"
+        android:fontFamily="@font/futurabold"
+        android:gravity="right|center_vertical"
+        android:text="Foto     "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chisono" />
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:background="#6e000000"
+        android:fontFamily="@font/futurabold"
+        android:gravity="right|center_vertical"
+        android:text="Video     "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
+
+    <Button
+        android:id="@+id/prossime"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:background="#6e000000"
+        android:fontFamily="@font/futurabold"
+        android:gravity="right|center_vertical"
+        android:text="Prossime date     "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video" />
+
+    <Button
+        android:id="@+id/contatti"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:background="#6e000000"
+        android:fontFamily="@font/futurabold"
+        android:gravity="right|center_vertical"
+        android:text="Contatti     "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/archivio" />
+
+    <Button
+        android:id="@+id/archivio"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:background="#6e000000"
+        android:fontFamily="@font/futurabold"
+        android:gravity="right|center_vertical"
+        android:text="Archivio eventi     "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prossime" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/chisono"
+        app:layout_constraintTop_toTopOf="@+id/chisono"
+        app:srcCompat="@drawable/wordpress" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/foto"
+        app:layout_constraintTop_toTopOf="@+id/foto"
+        app:srcCompat="@drawable/intsagram_103528png" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/video"
+        app:layout_constraintTop_toTopOf="@+id/video"
+        app:srcCompat="@drawable/youtube" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/prossime"
+        app:layout_constraintTop_toTopOf="@+id/prossime"
+        app:srcCompat="@drawable/wordpress_copia_103528png" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/archivio"
+        app:layout_constraintTop_toTopOf="@+id/archivio"
+        app:srcCompat="@drawable/flick" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/contatti"
+        app:layout_constraintTop_toBottomOf="@+id/archivio"
+        app:srcCompat="@drawable/mail" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/video1"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/video1" />
+
+    <TextView
+        android:id="@+id/titoloVideo1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Exist di Giorgio Li Calzi feat. Haley Alker"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video1" />
+
+    <ImageButton
+        android:id="@+id/video2"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titoloVideo1"
+        app:srcCompat="@drawable/video2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Truccazzione Express"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video2" />
+
+    <ImageButton
+        android:id="@+id/video3"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/video3" />
+
+    <TextView
+        android:id="@+id/titolovideo3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Africa Unite - Così sia "
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video3" />
+
+    <TextView
+        android:id="@+id/testovideo3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/souvenirleggero"
+        android:gravity="center_horizontal"
+        android:text="Il clip di &quot;Cosi' Sia&quot;il primo singolo,estratto da &quot;Rootz&quot;. Un video che vuole essere un'elogio alla diversita' ed un'esortazione al rispetto!"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolovideo3" />
+
+    <ImageButton
+        android:id="@+id/video4"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testovideo3"
+        app:srcCompat="@drawable/video4" />
+
+    <TextView
+        android:id="@+id/titolovideo4"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Mecano figlio della luna 1998/2008"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video4" />
+
+    <TextView
+        android:id="@+id/testovideo4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/souvenirleggero"
+        android:gravity="center_horizontal"
+        android:text="Altro interessante esperimento della Cat Digital Film, la realtÃ e il sogno si confondono trasportandoci in un'atmosfera carica di patos e magia. Bellissimo brano dei MECANO, gruppo spagnolo degli anni 80 composto dai fratelli CANO e la solista Ana Torroja. Il video Ã¨ anche un'occasione per porgere un tributo al gruppo festeggiando il ventennio dall'uscita del brano. Un grazie al Male pub per l'ospitalitÃ , senza dimenticare il supporto dello staff Cat Digital Film e il fantastico Truccatore Furia West !"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolovideo4" />
+
+    <ImageButton
+        android:id="@+id/video5"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testovideo4"
+        app:srcCompat="@drawable/video5" />
+
+    <TextView
+        android:id="@+id/testovideo5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/souvenirleggero"
+        android:gravity="center_horizontal"
+        android:text="In questo video metto in evidenza la grandezza dei costumi e delle forme, anche se le riprese cinematografiche lo restringono. Sono stati impiegati 16 metri quadri di tessuto bianco per creare il vestito, e 45 metri di tubolare di luci del peso di 25kg per illuminarlo. Gli effetti luce sono stati creati utilizzando solo candele nelle scene oscure, e per il bianco una luce wood con 5 lampade ARRI 800"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolovideo5" />
+
+    <TextView
+        android:id="@+id/titolovideo5"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Rocio Juardo alias BarbieBubu"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video5" />
+
+    <ImageButton
+        android:id="@+id/video6"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testovideo5"
+        app:srcCompat="@drawable/video6" />
+
+    <TextView
+        android:id="@+id/testovideo6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/souvenirleggero"
+        android:gravity="center_horizontal"
+        android:text="Cercando di assomigliare il più possibile ad una Diva mi sono ispirato proprio ad Annie Lennox. Ci sono giorni in cui sei stanco di essere un fantasma e vuoi accentuare con un nonnulla il tuo aspetto adoperando 18m di boa piumato e illuminato da piccole lucine e un semplice girocollo di Svaroski."
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolovideo6" />
+
+    <TextView
+        android:id="@+id/titolovideo6"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text='BarbieBubu - Annie Lennox "Why"'
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video6" />
+
+    <ImageButton
+        android:id="@+id/video7"
+        android:layout_width="131dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testovideo6"
+        app:srcCompat="@drawable/video7" />
+
+    <TextView
+        android:id="@+id/titolovideo7"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/futurabold"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Live at the Chicobum Festival"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video7" />
+
+</android.support.constraint.ConstraintLayout>
